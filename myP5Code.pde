@@ -2,19 +2,33 @@
 void setup() {
     size(400, 400); 
     background(255,255,255,100);
-}
+    background(
+154, 218, 253)
+//}
 
 
 //🟢Draw Procedure - Runs on Repeat
-void draw(){
+//void draw(){
   fill(255,255,255);
-  strokeWeight(1);
+  strokeWeight(0.2);
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
-
+  // hamzah
+ fill (198,166,149)
+  rect(150, 120, 75, 95);
+  rect(150, 90, 75, 95);
+  rect(75,200, 205,100);
+  quad(102, 200, 58, 205,26,373,70,366);
+  triangle(39,329,72,366,294,321,30)
+   triangle(121,326,204,324,214,273,30) 
+   triangle(213,274,204,299,278,299,30)
+// martin
+fill(224,190,165)
+ rect(205,300, 205,100);
+  rect(300, 150, 100, 95);
+  rect(320, 240, 70, 75);
   
-
 }
 
 //🟡Extra FUN Features Ms. Hall Added
